@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+
+        class Custom{
+
+            constructor(name , age,  gender ,  address){
+
+
+                this.name=name;
+                this.age=age;
+                this.gender=gender;
+                this.address=address
+
+            }
+         //   <!-- push(my){
+
+          //    return  this.my+=age;
+
+       //     } -->
+
+            push(ages){
+
+                return  this.age+=ages;
+          
+              }
+
+        }
+
+        Custom.prototype.Name=function(Names){
+
+            this.Names=Names
+        }
+
+     
+        const one=new Custom("jugal" , 22 , "gender" , "bantilab")
+
+        one.push(22)
+
+
+        one.Name("knaika")
+        console.log(one)
+
+        
+
+        class One extends Custom{
+
+            constructor(name , age , gender , address , city , country)
+
+            super(name , age , gender , address);
+
+            
+
+
+
+           
+
+
+
+        }
+
+
+    </script>
+</body>
+</html>
